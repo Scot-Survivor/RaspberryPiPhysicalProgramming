@@ -8,9 +8,7 @@ find_package(Threads REQUIRED)
 
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/)
-include_directories(${CMAKE_CURRENT_BINARY_DIR}/gnuplot-iostream-src/)
 include_directories(${WIRINGPI_INCLUDE_DIRS})
-include_directories(${Boost_INCLUDE_DIRS})
 
 
 add_library(ADCLib STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/ADCDevice.cpp)

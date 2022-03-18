@@ -3,7 +3,6 @@
 //
 #include <cmath>
 #include <ADCDevice.hpp>
-#include <gnuplot-iostream.h>
 
 
 // My Full scale input range is 5V,
