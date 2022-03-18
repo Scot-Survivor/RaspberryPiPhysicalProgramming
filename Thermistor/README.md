@@ -64,3 +64,4 @@ END
 ![Graph](https://user-images.githubusercontent.com/40865296/159096665-dc445fe0-e1b4-463b-988d-68063008f9d0.png)
 
 The Graph above is showing the relationship of the temperature to the voltage across the thermistor. 
+This regression line was calculated from about 5 Million sample points.
