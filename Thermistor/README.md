@@ -10,6 +10,7 @@ as such I had to go with what I could create on my desk, which was room temperat
 ## Circuit Diagram
 Overall Circuit design came from the Tutorial on Freenove:
 ![image](https://user-images.githubusercontent.com/40865296/159094267-a916b430-9e5d-45b4-a9cb-77c78cfa48a5.png)
+
 The GPIO extension board, labelling my exact pins made this whole process much easier. 
 The exact ADC I used was the ADS7830, the [spec sheet](https://www.ti.com/lit/ds/symlink/ads7830.pdf?ts=1647530844817&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS7830%253FkeyMatch%253DADS7830%2526tisearch%253Dsearch-everything%2526usecase%253DGPN)
 became vital in debugging while I was trying to find out the maths. When conducting this project, I only wanted to use the tutorial, for the 
@@ -21,9 +22,6 @@ circuit diagrams to stop me from damaging my components by miss wiring them. Thu
 - [Thermistor Datasheet](https://en.wikipedia.org/wiki/Thermistor)
 - [Thermistor Equations (Part 1)](https://e2e.ti.com/blogs_/archives/b/precisionhub/posts/it-s-in-the-math-how-to-convert-adc-code-to-a-voltage-part-1)
 - [Thermistor Equations (Part 2)](https://e2e.ti.com/blogs_/archives/b/precisionhub/posts/it-39-s-in-the-math-how-to-convert-an-adc-code-to-a-voltage-part-2)
-
-### Images of Physical Circuit
-![IMG_5753](https://user-images.githubusercontent.com/40865296/159095016-b25625d7-f759-4eb7-a87a-3e6e0a7b1040.jpg)
 
 
 ## Maths and Calculations
@@ -61,3 +59,8 @@ SUBROUITE main
     write_to_file(T)
 END
 ```
+
+## Results
+![Graph](https://user-images.githubusercontent.com/40865296/159096665-dc445fe0-e1b4-463b-988d-68063008f9d0.png)
+
+The Graph above is showing the relationship of the temperature to the voltage across the thermistor. 
